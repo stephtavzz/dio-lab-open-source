@@ -76,7 +76,6 @@ Atente-se para a seguir as orientações para a contribuição, principalmente:
 
 Após criar o seu Pull Request, nossa automação irá validar a sua submissão. Caso esteja tudo certo, será retornada uma mensagem indicado que seu PR foi aprovado. Do contrário, leia atentamente as orientações e verifique os arquivos modificados para saber se atende as instruções para contribuição.
     
-    
 ## Convenção de Commits 
 
 | Tipo de Commit |Descrição                                                            | Exemplo
@@ -88,6 +87,17 @@ Após criar o seu Pull Request, nossa automação irá validar a sua submissão.
 | `refactor`     | Realiza mudanças no código que não alteram a funcionalidade.         | `refactor: refactor at CLASSNAME`
 | `test`         | Adiciona ou modifica testes no projeto.                              | `test: add unit test for UserService`
 
+## Profile README 
+
+Para facilitar a inclusão de badges no seu Profile README, criamos uma ferramenta para gerar o código necessário sem a necessidade de entender de Markdown.
+
+### Acesse **[Profile README Generator](https://profile-readme-generator.com/)** para começar a gerar badges facilmente
+
+1) Selecione o tipo de badge que deseja adicionar (por exemplo, habilidades, estatísticas GitHub, etc);
+2) Personalize a aparência e o link do badge;
+3) Copie o código gerado e cole-o no seu Profile README.
+
+Essa ferramenta irá gerar automaticamente o código Markdown necessário para que você possa adicionar badges ao seu Profile README com facilidade!
 
 ## Referências
 - [ANGULAR. Contributing to Angular](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md)
